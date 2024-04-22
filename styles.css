@@ -1,0 +1,48 @@
+body {
+    background-color: #87ceeb; /* Couleur bleu ciel */
+    font-family: Arial, sans-serif; /* Choix de la police de caractères */
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 0; /* Supprime les remplissages par défaut */
+}
+
+/* Styles pour la barre de recherche */
+.search-container {
+    margin-bottom: 20px;
+    display: flex; /* Utilisation de flexbox pour aligner les éléments horizontalement */
+}
+
+.search-container input {
+    padding: 8px;
+    margin-right: 10px;
+    border: none; /* Supprime la bordure de l'input */
+    border-radius: 5px; /* Ajoute une bordure arrondie à l'input */
+}
+
+.search-container button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styles pour les informations météorologiques */
+.weather-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container {
+    margin-right: 20px;
+}
+
+.details-container {
+    text-align: left;
+}
+
+/* Styles pour les icônes météorologiques */
+.weather-icon {
+    font-size: 4em; /* Taille de police pour les icônes */
+}

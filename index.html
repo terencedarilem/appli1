@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Météo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Application Météo</h1>
+        <div class="search-container">
+            <input type="text" id="city-input" placeholder="Entrez une ville...">
+            <button onclick="searchWeather()">Rechercher</button>
+        </div>
+        <div class="weather-info">
+            <div class="icon-container">
+                <!-- Ici s'afficheront les icônes météorologiques -->
+                <i id="weather-icon" class=""></i> <!-- Ajoutez les classes de Font Awesome ici -->
+            </div>
+            <div class="details-container">
+                <p>Température: <span id="temperature"></span></p>
+                <p>Description: <span id="description"></span></p>
+                <p>Localisation: <span id="location"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
